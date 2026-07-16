@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" font-family="'Segoe UI',system-ui,sans-serif">
+<style>
+  .dot { animation: run 3s linear infinite; opacity:0; }
+  @keyframes run { 0% { transform: translate(var(--x0), var(--y)); opacity:0 } 15%,85% { opacity:1 }
+                    100% { transform: translate(var(--x1), var(--y)); opacity:0 } }
+  .card { transform-box: fill-box; transform-origin: center; animation: pulse 3.4s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { transform: scale(1) } 50% { transform: scale(1.02) } }
+  .led { animation: led 2.4s ease-in-out infinite; }
+  @keyframes led { 0%,100% { opacity:.3 } 50% { opacity:1 } }
+</style>
+<rect x="1" y="1" width="878" height="298" rx="16" fill="#0e0e16" stroke="#7c5cff" stroke-opacity="0.28"/>
+<text x="26" y="34" fill="#e8e8f4" font-size="20" font-weight="700">The full AI stack, owned end-to-end</text>
+<text x="26" y="54" fill="#9a9ab0" font-size="12.5">no API resellers: synthetic data → fine-tuning → self-hosted &amp; on-device serving → agents that act</text>
+
+<g class="card">
+  <rect x="20" y="70" width="190" height="88" rx="12" fill="#171724" stroke="#7c5cff" stroke-opacity="0.45"/>
+  <text x="115" y="97" fill="#e8e8f4" font-size="15" font-weight="700" text-anchor="middle">① Data</text>
+  <text x="115" y="116" fill="#9a9ab0" font-size="10.5" text-anchor="middle">deterministic synthetic gen</text>
+  <text x="115" y="131" fill="#9a9ab0" font-size="10.5" text-anchor="middle">multi-teacher · 16 quality gates</text>
+  <text x="115" y="146" fill="#9a9ab0" font-size="10.5" text-anchor="middle">DataForge · SHA-256 reproducible</text>
+</g>
+<g class="card" style="animation-delay:-0.8s">
+  <rect x="236" y="70" width="190" height="88" rx="12" fill="#171724" stroke="#7c5cff" stroke-opacity="0.45"/>
+  <text x="331" y="97" fill="#e8e8f4" font-size="15" font-weight="700" text-anchor="middle">② Fine-tune</text>
+  <text x="331" y="116" fill="#9a9ab0" font-size="10.5" text-anchor="middle">SFT + KTO · LoRA · QAT 1.58-bit</text>
+  <text x="331" y="131" fill="#9a9ab0" font-size="10.5" text-anchor="middle">prompt distilled into weights</text>
+  <text x="331" y="146" fill="#9a9ab0" font-size="10.5" text-anchor="middle">−96% system prompt tokens</text>
+</g>
+<g class="card" style="animation-delay:-1.6s">
+  <rect x="452" y="70" width="190" height="88" rx="12" fill="#171724" stroke="#7c5cff" stroke-opacity="0.45"/>
+  <text x="547" y="97" fill="#e8e8f4" font-size="15" font-weight="700" text-anchor="middle">③ Serve</text>
+  <text x="547" y="116" fill="#9a9ab0" font-size="10.5" text-anchor="middle">vLLM 32B FP8 on EU GPUs</text>
+  <text x="547" y="131" fill="#9a9ab0" font-size="10.5" text-anchor="middle">llama.cpp in-process on phones</text>
+  <text x="547" y="146" fill="#9a9ab0" font-size="10.5" text-anchor="middle">OpenCL / Metal · 1.2B → 32B</text>
+</g>
+<g class="card" style="animation-delay:-2.4s">
+  <rect x="668" y="70" width="190" height="88" rx="12" fill="#171724" stroke="#8fc9a6" stroke-opacity="0.5"/>
+  <text x="763" y="97" fill="#e8e8f4" font-size="15" font-weight="700" text-anchor="middle">④ Agents</text>
+  <text x="763" y="116" fill="#9a9ab0" font-size="10.5" text-anchor="middle">ReAct + GBNF valid-by-construction</text>
+  <text x="763" y="131" fill="#9a9ab0" font-size="10.5" text-anchor="middle">multi-agent deliberation (Geth)</text>
+  <text x="763" y="146" fill="#9a9ab0" font-size="10.5" text-anchor="middle">AI↔AI E2E-encrypted networks</text>
+</g>
+<circle class="dot" r="3.5" fill="#7c5cff" style="--x0:210px;--x1:236px;--y:114px;animation-delay:0s"/>
+<circle class="dot" r="3.5" fill="#7c5cff" style="--x0:210px;--x1:236px;--y:114px;animation-delay:1s"/>
+<circle class="dot" r="3.5" fill="#7c5cff" style="--x0:426px;--x1:452px;--y:114px;animation-delay:0.4s"/>
+<circle class="dot" r="3.5" fill="#7c5cff" style="--x0:426px;--x1:452px;--y:114px;animation-delay:1.4s"/>
+<circle class="dot" r="3.5" fill="#8fc9a6" style="--x0:642px;--x1:668px;--y:114px;animation-delay:0.8s"/>
+<circle class="dot" r="3.5" fill="#8fc9a6" style="--x0:642px;--x1:668px;--y:114px;animation-delay:1.8s"/>
+<text x="219" y="118" fill="#7c5cff" fill-opacity="0.5" font-size="14">›</text>
+<text x="435" y="118" fill="#7c5cff" fill-opacity="0.5" font-size="14">›</text>
+<text x="651" y="118" fill="#8fc9a6" fill-opacity="0.5" font-size="14">›</text>
+
+<g font-size="12" fill="#9a9ab0">
+  <circle class="led" cx="40" cy="196" r="4" fill="#22d3ee"/>
+  <text x="54" y="200"><tspan fill="#e8e8f4" font-weight="700">Privacy is the architecture</tspan> — AES-256-GCM at rest · hardware keystores · X25519 E2E · zero-knowledge patterns · GDPR-native</text>
+  <circle class="led" cx="40" cy="226" r="4" fill="#a78bfa" style="animation-delay:-0.8s"/>
+  <text x="54" y="230"><tspan fill="#e8e8f4" font-weight="700">Security in Rust</tspan> — SENTINEL ML WAF (prompt-injection · behavioral · 2–15 ms) guarding it all</text>
+  <circle class="led" cx="40" cy="256" r="4" fill="#8fc9a6" style="animation-delay:-1.6s"/>
+  <text x="54" y="260"><tspan fill="#e8e8f4" font-weight="700">EU infrastructure, self-hosted</tspan> — Hetzner GPUs · Docker container-per-tenant · Traefik · no US clouds by design</text>
+</g>
+</svg>
