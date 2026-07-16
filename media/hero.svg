@@ -26,7 +26,7 @@
 <circle class="spark" cx="806" cy="78" r="2" fill="#7c5cff" style="animation-delay:-2.3s"/>
 <circle class="spark" cx="840" cy="130" r="2.5" fill="#22d3ee" style="animation-delay:-0.6s"/>
 
-<text x="36" y="76" fill="#e8e8f4" font-size="38" font-weight="800">Nicola Cucurachi <tspan fill="#9a9ab0" font-size="20" font-weight="600">· adoslabs / Zeli Srl · Italy 🇮🇹</tspan></text>
+<text x="36" y="76" fill="#e8e8f4" font-size="38" font-weight="800">Nicola Cucurachi <tspan fill="#9a9ab0" font-size="20" font-weight="600">· Nic.IA · Italy 🇮🇹</tspan></text>
 <text x="36" y="118" font-size="24" font-weight="700" fill="url(#g)">I build private, self-hosted AI — from the dataset to the device.</text>
 
 <text x="36" y="168" fill="#9a9ab0" font-size="18" font-weight="600">Currently shipping:</text>

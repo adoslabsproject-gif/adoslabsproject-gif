@@ -2,7 +2,7 @@
 <img src="media/hero.svg" alt="Nicola Cucurachi — adoslabs / Zeli Srl · I build private, self-hosted AI, from the dataset to the device" width="100%" />
 </div>
 
-I'm Nicola — founder of **Zeli Srl** (Italy). I design and ship **privacy-first AI systems** where the entire stack is mine: the synthetic data, the fine-tuned models, the GPUs they run on, and the agents they power. My method is unusual and I own it proudly: **everything below was built by orchestrating AI agents end-to-end** — architecture, code, training runs, deploys. My craft is directing the machines.
+I'm Nicola — founder of **Nic.IA** (Italy). I design and ship **privacy-first AI systems** where the entire stack is mine: the synthetic data, the fine-tuned models, the GPUs they run on, and the agents they power. My method is unusual and I own it proudly: **everything below was built by orchestrating AI agents end-to-end** — architecture, code, training runs, deploys. My craft is directing the machines.
 
 <div align="center">
 <img src="media/pipeline.svg" alt="The full AI stack owned end-to-end: synthetic data, fine-tuning, self-hosted and on-device serving, agents" width="100%" />
@@ -31,6 +31,15 @@ I'm Nicola — founder of **Zeli Srl** (Italy). I design and ship **privacy-firs
 **AI engineering & orchestration** — multi-agent systems that actually converge, ReAct agents made reliable on small models (grammar-constrained tool calls, intent guards, consent gates), LLM fine-tuning (LoRA/SFT/KTO/QAT), knowledge distillation, synthetic data pipelines with adversarial quality gates, self-hosted inference (vLLM ↔ llama.cpp, cloud ↔ pocket).
 
 **Systems & security** — Rust (WAF, native apps, inference), TypeScript/Node, Go, Python/ML, .NET; end-to-end encryption (X25519, Signal Protocol), zero-knowledge architectures, hardware keystores; EU-hosted infrastructure with hard tenant isolation.
+
+<div align="center">
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=rust,ts,react,nodejs,go,py,pytorch,dotnet,php,svelte,kotlin,postgres,redis,docker,nginx,cloudflare&theme=dark&perline=8" alt="Rust, TypeScript, React, Node.js, Go, Python, PyTorch, .NET, PHP, Svelte, Kotlin, PostgreSQL, Redis, Docker, nginx, Cloudflare" /></a>
+</div>
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=adoslabsproject-gif&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0e0e16" height="170" alt="GitHub stats" />
+<img src="https://streak-stats.demolab.com/?user=adoslabsproject-gif&theme=tokyonight&hide_border=true&background=0e0e16" height="170" alt="GitHub streak" />
+</div>
 
 ## 🤝 Want to help?
 
